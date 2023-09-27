@@ -1,0 +1,83 @@
+.container{
+    max-width: 50%;
+    margin: auto;
+    height: 100vh;
+    padding: 15px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    background-color: #eee;
+    border-radius: 50px;
+}
+body{
+    background-image: url(rap.jpg);
+    background-size: cover;
+    box-sizing: border-box;
+}
+.login{
+    font-size: 20px;
+    align-items: center;
+}
+.zkr{
+    text-align: center;
+    padding: 10px;
+    width: 600px;
+    margin-left: 100px;
+}
+.zkr img{
+    width: 30px;
+    margin: 7px;
+    margin-right: 50px;
+    height: 30px;
+}
+a{
+    width: 70%;
+    border: 1px solid black;
+    border-radius: 100px ;
+    padding: 6px;
+    justify-content: center;
+    display: flex;
+    color: black;
+    text-decoration:none;
+    align-items: center;
+}
+.line{
+    height: 1px;
+    width: 90%;
+    position: relative;
+    margin: 30px;
+    background-color: #d4d4d4;
+}
+.line::before{
+    content: 'ou';
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: #eee;
+    color: #232836;
+    padding: 15px
+}
+form{
+    margin-top: 30px;
+    line-height: 30px;
+    background-color: #eee;
+}
+form .input{
+    height: 45px;
+    width: 100%;
+}
+.input input{
+    height: 100%;
+    width: 70%;
+}
+label{
+    font-size: 20px;
+}
+.button{
+    width: 20%;
+    background-color: rgb(6, 172, 6);
+    border: 1px solid black;
+    border-radius: 100px;
+    height: 35px;
+    margin: 10px;
+}

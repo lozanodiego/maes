@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.arriereplan{
+    height: 100vh;
+    width: 100%;
+    background-image: url(rap.jpg);
+    background-size: cover;
+    position: relative;
+}
+.logo{
+    width: 80px;
+    justify-content: space-between;
+}
+.navbar{
+    width: 88%;
+    margin: auto;
+    padding: 15px ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar ul li{
+    display: inline-block;
+    margin:  15px;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+}
+.navbar :hover{
+    transition: 0.2s;
+    color: blue;
+}
+.listen{
+    width: 100%;
+    position: absolute;
+    top: 20%;
+}
+.hassan{
+    margin-left: 60px;
+}
+.hassan h1{
+    font-size: 100px;
+    color: #eee;
+    line-height: 120px;
+    
+}
+#search{
+    background-color: blue;
+    color: #eee;
+    border: 2px solid blue;
+    
+}
+#cc{
+    width: 130px;
+    border: 1px solid black;
+    color: black
+}
